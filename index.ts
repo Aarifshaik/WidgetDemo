@@ -9,10 +9,9 @@
 // // should be added here.
 // renderRootComponent(App);
 
-
+import '@/node_modules/@expo/metro-runtime';
 import { registerRootComponent } from 'expo';
 import { registerWidgetTaskHandler } from 'react-native-android-widget';
-import '@/node_modules/@expo/metro-runtime';
 
 
 import { renderRootComponent } from 'expo-router/build/renderRootComponent';
